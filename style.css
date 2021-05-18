@@ -1,0 +1,537 @@
+	/*body font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+.full-screen{
+	display: flex;
+	color: white;
+}
+.left-site{
+	width: 100px;
+	height: 100vh;
+	border-right: 1px solid grey;
+	position: fixed;
+	background-color: black;
+	z-index: 99999;
+	
+}
+.logo{
+	width:100px;
+	height: auto;
+	margin-bottom: 60px;
+}
+.logo img{
+	width: 100%;
+	color: white;
+}
+.menu{
+
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+.menu ul{
+	position: relative;
+}
+.menu ul li{
+	list-style: none;
+	position: relative;
+	margin-top: 30px;
+	margin-right: 15px;
+}
+.menu ul li a{
+	color: white;
+}
+.menu ul li i{
+	font-size: 25px;
+	position: relative;
+}
+.menu ul li p{
+	position: absolute;
+	margin-left: px;
+	margin-top: -50px;
+	display: none;
+	color: white;
+}
+.menu ul li:hover p{
+	display: block;
+}
+.menu-icon{}
+.menu-icon i{
+	font-size: 30px;
+	background-color: black;
+	text-align: center;
+	
+}
+
+
+.menu ul ul{
+	width: 240px;
+	background-color: white;
+	color: black;
+	border-radius:0px 30px 10px 30px;
+	position: absolute;
+	margin-left: 50px;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	box-shadow: 1px 1px 5px black;
+	transition: .8s;
+	display: none;
+}
+.menu ul li:hover ul{
+	display: block;
+
+}
+.menu ul ul li:hover{
+	background-color: rgba(173,179,178,.4);
+	border-radius: 10px;
+}
+.menu ul ul li{
+	width: 100%;
+	margin: 15px 0;
+	margin-left: -20px;
+	text-align: center;
+}
+.menu ul ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+
+
+
+.banner-area{
+	width: 100%;
+	height: 70vh;
+	background: url(images/rough-horn-2146181_1920.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.banner-area .layer{
+	background-color: rgba(81,85,88, .7);
+	width:100%;
+	height:70vh;
+
+}
+.welcome{
+	color: white;
+	width: 60%;
+	margin: auto;
+	padding: 120px 0;
+
+}
+.welcome h3{
+	width: 100%;
+	text-align: center;
+	text-transform:capitalize;
+	font-family: 'Roboto', sans-serif;
+	word-spacing:8px;
+
+}
+.welcome p{
+	margin-top: 20px;
+	font-size: 13px;
+	text-align: justify;
+	text-transform: capitalize;
+}
+.button{
+
+	text-align: center;
+}
+.button button{
+	text-transform: capitalize;
+}
+
+.right-site{
+	background-color: black;
+	position: absolute;
+	top:0;
+	 right: 0;
+	 width: 100px;
+	 height: 100vh;
+	 position: fixed;
+	 z-index: 999999;
+}
+.icons{
+	margin: 180px 0px;
+	
+}
+.icons li{
+	list-style: none;
+	text-align: center;
+	margin: 20px 0;
+	position: relative;
+}
+.icons li a{
+	color: white;
+
+}
+.icons li a i{
+	font-size: 25px;
+}
+.icons li a::after{
+	content: '';
+	height: 3px;
+	width: 0%;
+	background-color: #ffff;
+	position: absolute;
+	left: 0;
+	bottom:0;
+	transition: .8s;
+}
+.icons li a:hover::after{
+	width: 100%;
+
+}
+
+
+.top-lyer{
+	width: 100%;
+	display: flex;
+	margin: 50px 0px;
+	justify-content: space-between;
+}
+.hjk{
+	width: 30%;
+	display: inline-block;
+}
+.hjk:first-child{
+	margin-left: 10px;
+}
+.hjk:nth-child(3){
+	margin-right: 10px;
+}
+.hjk i{
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+	margin: 20px auto;
+}
+.hjk p{
+	text-align: justify;
+	text-transform: capitalize;
+}
+
+.About-area{
+	background-color: #faf6fa;
+	padding: 70px 0px;
+}
+
+.About-area h3{
+	padding-bottom: 25px;
+	font-weight: 550;
+	font-family: 'Roboto', sans-serif;
+	text-transform: capitalize;
+}
+.ab-flex{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 20px;
+}
+.ab-left{
+	width: 45%;
+}
+.ab-left img{
+
+}
+.ab-right{
+	width: 45%;
+}
+.ab-bottom{
+	margin:20px;
+}
+img{
+	width: 100%;
+}
+.team-banner{
+	
+}
+.members{
+	display: flex;
+	margin: 0 20px;
+	justify-content: space-between;
+}
+
+.member img{
+	height: 300px;
+	padding: 10px;
+	border-radius:20px;
+}
+.team-members{
+	margin: 30px 10px;
+	padding: 10px 20px;
+}
+.team-members h3{
+	opacity: 100%;
+	color: black;
+	padding: 20px 0;
+}
+.member{
+	width: 30%;
+}
+.member:nth-child(3){
+	margin-right: 10px;
+}
+.card-body h5{
+	font-weight: 700;
+	font-size:15px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: capitalize;
+}
+.card-body p{
+	font-size: 13px;
+	text-transform: capitalize;
+}
+.bs-footer{
+	width: 50%;
+	text-align: center;
+	margin: 0px auto;.
+}
+.bs-footer button{
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+
+
+}
+
+.slide-area{
+	width: 95%;
+	height: 200px;
+	overflow: hidden;
+
+}
+.slide-area h4{
+	font-size: 22px;
+}
+.slide-area2{
+	display: flex;
+	display: none;	
+	overflow: hidden;
+}
+.item2 img{
+	height: 80px;
+}
+.item2{
+	width: 45%;
+	height: auto;
+	margin: 10px 0;
+}
+.item2 h5{
+	font-size: 18px;
+}
+.item2 h6{
+	font-size: 15px;
+}
+.item2 p{
+	font-size: 12px;
+}
+.slide-area h4{
+	margin: 25px 0;
+}
+.card img{
+	height:300px;
+}
+
+img{
+	width: 100%;
+}
+.card-footer{
+	width: 100%;
+	text-align: center;
+}
+.body{
+	padding: 10px;
+}
+.body h6{
+	margin-top: 15px;
+	font-weight: 500px;
+}
+.body h5{
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: -10px;
+}
+.short-menu{
+	width: 100%;
+	height: 50px;
+	top: 0;
+	background-color: #000000;	
+	z-index: 999999;
+	display: none;
+	position: relative;
+	position:fixed;
+}
+.menu-lalyer{
+	display: flex;
+	position: relative;
+}
+.logo-site{
+	width: 10%;
+	
+}
+.logo-site img{
+	width:20%;
+	padding:15px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+.menu-list{
+	width: 90%;
+	padding: 20px 0;
+}
+.menu-list ul{
+	display: flex;
+	float: right;
+	overflow: hidden;
+}
+.menu-list ul ul{
+	display: block;
+	width: 150px;
+	background-color: #ffff;
+	color: #000000;
+	box-shadow: 1px 1px 5px grey;
+	position: absolute;
+	top: 100%;
+	padding: 15px;
+	display: none;
+	z-index: 9999999;
+
+}
+.menu-list ul li:hover ul{
+	display: block;
+}
+.menu-list ul ul li a{
+	color: black;
+}
+.menu-list ul li{
+	list-style: none;
+}
+.menu-list ul li a{
+	font-size: 12px;
+	text-decoration: none;
+	color: white;
+	margin-left:15px;
+}
+.menu-list ul li a{}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.card{
+	z-index: 0000000000000000000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+.bal{
+	background-color: #dddddd;
+	width: 100%;
+}
+
+
+
+.footer-area{
+	width: 100%;
+	background-color: rgba(81,85,88,.9);
+	color: green;
+	background-size: cover;
+	overflow: hidden;
+}
+.follow{
+	height: auto;
+	padding-top: 50px;
+}
+.ft-flex{;
+	display: flex;
+	justify-content: space-between;
+	width: 35%;
+	color: white;
+	margin: 0px 20px;
+}
+.follow h4{
+	padding: 25px 0;
+	text-align: center;
+	margin-left: 20px;
+}
+.follow li{
+	list-style: none;
+	margin-left: 25px;
+}
+.follow li a{
+	text-decoration: none;
+	
+}
+.foter-service{
+	width: 40%;
+	padding-top: 50px;
+	text-align:center;
+}
+.foter-service h4{
+	color: white;
+	padding: 25px 0;
+}
+.foter-service li{
+	list-style: none;
+}
+.foter-service li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	margin: 10px 0;
+}
+.copy-write{
+	width: 100%;
+	background-color: rgba(81,85,88,.3);
+	color: #d6dede;
+	display: flex;
+	margin-top: 25px;
+	padding-top: 50px;
+	padding-bottom:50px;
+}
+.copy{
+	width: 25%;
+}
+.deserve{
+	width:35%;
+
+}
+.deserve p{
+	text-align: right;
+}
+
+
+
+
+
+
+most people died 25, and are not buried untill 75.
+
+
+https://drive.google.com/drive/folders/1kadBRiWtpXMi0E5OHvcGJvcBJr1jeOEk?fbclid=IwAR0ouAukibD2R7meBwz_87QNSI3xbZULxnw3tzFjF3-JVDfGmaykPkMasJg

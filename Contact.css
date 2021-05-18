@@ -1,0 +1,236 @@
+
+
+body{
+	background-image: url(images/contact-body.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+{
+	background-image: url(images/pexels-ylanite-koppens-796602.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+}
+.banner-area1 .layer{
+	background-color: rgba(81,85,88, .7);
+	width:100%;
+	height:50vh;
+
+}
+.menu-icon{
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+
+.menu-icon i{
+	position: absolute;
+	top: 100px
+	right:100px;
+	color: black;
+}
+
+
+
+.messenger{
+	color: blue;
+	z-index: 999999999;
+
+}
+.messenger i{
+	position: absolute;
+	font-size:40px;
+	color: white;
+	bottom:50px;
+	right:50px;
+	position: fixed;
+	color: #06f7dd;
+}
+/*.header{
+	background: url(images/massenger backround.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	width: 200px;
+	height: 400px;
+	box-shadow: 2px 0px 10px black;
+	margin-left: 250px;
+	position: fixed;
+	bottom: 350px;
+}*/
+
+
+.contact-file{
+	background-image: url(images/wave.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center; 
+	border: 1px solid black;
+	width: 40%; 
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	
+}
+.contact-file h4{
+	margin: 25px 0;
+}
+.contact-file img{
+	width: 150px;
+	text-align: center;
+}
+.texts{
+	width:70%;
+	margin: 25px auto;
+	background-color: transparent;
+	
+}
+.texts input{
+	width: 100%;
+	display: block;
+	background-color: transparent;
+	border: 1px solid grey;
+	margin: 0 auto;    
+}
+.texts textarea{
+	width: 100%;
+	height: 200px;
+	background-color: transparent;
+	padding:0 5px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+	justify-content: space-between;
+}
+.texts button{
+	
+
+}
+
+
+.social{
+	width: 80%;
+}
+.social-icons{
+	width: 100%;
+	display: flex;
+}
+.social-icon li{
+	list-style: none;
+}
+.social-icon li a{}
+.social-icons li a i{
+	color: black;
+	margin: 15px;
+}
+
+
+
+
+
+
+
+.right-site{
+	
+}
+.social-icons{
+	display: flex;
+}
+.social-icons li{
+	list-style: none;
+	text-align: center;
+	margin: 20px 0;
+	position: relative;
+}
+.icons li a{
+	color: white;
+
+}
+.icons li a i{
+	font-size: 25px;
+}
+.icons li a::after{
+	content: '';
+	height: 3px;
+	width: 0%;
+	background-color: #ffff;
+	position: absolute;
+	left: 0;
+	bottom:0;
+	transition: .8s;
+}
+.icons li a:hover::after{
+	width: 100%;
+
+}
+
+
+
+.footer-area{
+	width: 100%;
+	background-color: rgba(81,85,88,.9);
+	color: green;
+	background-size: cover;
+	overflow: hidden;
+}
+.follow{
+	height: auto;
+	padding-top: 50px;
+}
+.ft-flex{;
+	display: flex;
+	justify-content: space-between;
+	width: 35%;
+	color: white;
+	margin: 0px 20px;
+}
+.follow h4{
+	padding: 25px 0;
+	text-align: enter;
+	margin-left: 20px;
+}
+.follow li{
+	list-style: none;
+	margin-left: 25px;
+}
+.follow li a{
+	text-decoration: none;
+
+}
+.foter-service{
+	width: 40%;
+	padding-top: 50px;
+	text-align:center;
+}
+.foter-service h4{
+	color: white;
+	padding: 25px 0;
+}
+.foter-service li{
+	list-style: none;
+}
+.foter-service li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	margin: 10px 0;
+}
+.copy-write{
+	width: 35%;
+	color: #d6dede;
+	display: flex;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.copy{
+	width: 25%;
+}
+.deserve{
+	width:35%;
+
+}
+.deserve p{
+	text-align: center;
+}
+

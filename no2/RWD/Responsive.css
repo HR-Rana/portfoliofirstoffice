@@ -1,0 +1,109 @@
+@media (max-width: 768px){
+	.logo-area h4 a{
+	font-size: 25px;
+	}
+	.logo-area h4 a span{
+	font-size: 30px;
+	color: #d40947;
+	}
+	.search-box input{
+		font-size: 13px;
+		border-radius: 15px;
+		border: none;
+	}
+	.your-content-here{
+	width: 60%;
+	padding:50px 0;
+	}
+	.your-content-here h5{
+	font-size: 25px;
+	}
+	.menu{
+	width: 70%;
+	margin: 0 auto;
+	}
+	.menu ul li a{
+	font-weight: 500;
+	font-size: 15px;
+	}
+	.layers{
+		width: 90%;
+	display: block;
+	}
+	.point{
+	width: 90%;
+	}
+	.gallary-area h4{
+	font-size: 22px;
+	}
+	.profile{
+	width: 90%;
+	display: flex;
+	margin: 15px;
+	}
+	.chobi{
+	width: 90%;
+	}
+	.profile:nth-child(2){
+	width:90%;
+	}
+	.service-area h4{
+	font-size: 22px;
+	}
+	.services{
+	display:block;
+	}
+	.services img{
+		height: 200px;
+	}
+	.service-list{
+	width: 100%;
+	}
+	.testimonials-area h4{
+	font-size: 22px;
+	}
+	.testimonials{
+	display: block;
+	}
+
+
+
+
+
+}
+
+@media (max-width: 500px){
+	.creat{
+		width: 70%;
+		margin: 0 auto;
+	}
+	.creat p{
+		font-size: 12px;
+	}
+	.creat h5{
+		font-size: 16px;
+		}
+	.menu ul li a{
+	font-weight: 400;
+	font-size: 12px;
+	}
+	.menu{
+	width: 90%;
+	}
+	.nav-area{
+	border: 1px solid #d5d9dc;
+	padding: 10px 0;
+	}
+	.service-list{
+	width:80%;
+	}
+	body p{
+		font-size: 13px;
+	}
+	.text{
+		width: 80%;
+	}
+	.service-bottom p{
+		width: 80%;
+	}
+}
